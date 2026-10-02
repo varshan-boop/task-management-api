@@ -1,0 +1,12 @@
+[project]
+name = "task-management-api"
+version = "0.1.0"
+description = "A FastAPI task management REST API backed by SQLite."
+requires-python = ">=3.13"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "email-validator>=2.3.0",
+    "fastapi>=0.142.2",
+    "pyjwt>=2.15.1",
+    "uvicorn>=0.54.0",
+]
