@@ -50,7 +50,7 @@ curl http://localhost:8080/api/tasks \
 ```
 
 The server signs JWTs with `JWT_SECRET`, or `SESSION_SECRET` if `JWT_SECRET` is
-not set. Configure the signing key through Replit Secrets. Registration and
+not set. Configure the signing key through environment variables. Registration and
 login are public; task endpoints require authentication. Users can only access
 their own tasks. A task owned by another user returns `403`; nonexistent tasks
 return `404`. Previously stored tasks are retained during migration, but because

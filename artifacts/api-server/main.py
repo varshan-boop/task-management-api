@@ -139,7 +139,7 @@ def get_jwt_secret() -> str:
     secret = os.environ.get("JWT_SECRET") or os.environ.get("SESSION_SECRET")
     if not secret:
         raise RuntimeError(
-            "Configure JWT_SECRET or SESSION_SECRET in Replit Secrets before starting the API."
+            "Configure JWT_SECRET or SESSION_SECRET in the environment before starting the API."
         )
     return secret
 
