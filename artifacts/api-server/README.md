@@ -105,4 +105,12 @@ curl -X PATCH http://localhost:8080/api/tasks/1 \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-Type: application/json' \
   -d '{"status":"in_progress"}'
+
+## Live API
+
+Deployed on Render: https://task-management-api-py7m.onrender.com
+
+### Swagger Documentation
+
+https://task-management-api-py7m.onrender.com/api/docs
 ```
