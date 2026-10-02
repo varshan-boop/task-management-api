@@ -113,4 +113,8 @@ Deployed on Render: https://task-management-api-py7m.onrender.com
 ### Swagger Documentation
 
 https://task-management-api-py7m.onrender.com/api/docs
+
+### Health Check
+
+https://task-management-api-py7m.onrender.com/api/healthz
 ```
